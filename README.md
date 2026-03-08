@@ -68,6 +68,52 @@ Claude will ask for any missing details (brand personality, colors, fonts, platf
 - Platform-appropriate code snippets
 - Do's and don'ts
 
+## Example Use Cases
+
+### 1. New startup needs a design system from scratch
+
+```
+/styleguide:styleguide Pulse - a health & fitness SaaS app - React + Tailwind - energetic and modern
+```
+
+You're building a new product and don't have a design system yet. The skill generates your entire foundation — a seed color (e.g., vibrant green) expanded into full light/dark tonal palettes, a type scale using Inter for body and a bold display font, an 8px spacing grid, every component specced out with your brand tokens, and CSS custom properties ready to drop into your Tailwind config. Instead of spending weeks deciding on your color roles, elevation levels, and button variants, you get a coherent system in minutes that you can iterate on.
+
+### 2. Bringing consistency to an existing codebase
+
+```
+/styleguide:styleguide
+```
+
+> Brand: "Meridian" - professional, trustworthy, navy blue (#1a365d) primary
+> Stack: Vue 3 + SCSS
+> Platform: Web only
+
+Your app has grown organically — 14 shades of grey, inconsistent spacing, buttons that look different on every page. The skill audits what a complete system should look like and generates a token file mapping your existing navy blue through a full tonal palette, defines the 6 elevation levels your shadows should follow, and specs out every component with consistent shape/state/spacing tokens. You get a migration path from chaos to system.
+
+### 3. Building a cross-platform component library
+
+```
+/styleguide:styleguide Kite - a fintech banking app - Flutter - clean and minimal with sharp edges
+```
+
+You need components that work on both iOS and Android. The skill generates Dart theme data with your color scheme, a type scale using system fonts per platform, a shape system using cut corners (matching "sharp edges"), and component specs for every element from text fields to bottom sheets — all with Flutter-specific guidance on adaptive behavior (Cupertino on iOS, Material on Android) and platform-appropriate navigation patterns.
+
+### 4. White-label product needing theme infrastructure
+
+```
+/styleguide:styleguide CloudDesk - a white-label helpdesk platform - React + CSS Modules
+```
+
+Your product is resold under different brands. The skill generates a complete token architecture with the three-tier system (reference → system → component tokens) designed for theming. Each client gets their own seed color that cascades through all 40+ color roles automatically. The theme structure section defines exactly how brand overrides layer on top of your baseline, so spinning up a new client theme means changing one seed color and a font stack.
+
+### 5. Mobile app redesign with accessibility focus
+
+```
+/styleguide:styleguide Relay - a messaging app for the deaf community - SwiftUI - warm and accessible
+```
+
+Accessibility isn't an afterthought — it's the product. The skill generates a color system that exceeds AAA contrast ratios (7:1), ensures all touch targets are 48dp+, defines comprehensive VoiceOver/ARIA semantics for every component, specs out `prefers-reduced-motion` behavior, and provides Dynamic Type scaling rules. Every component spec includes its accessibility requirements alongside the visual design.
+
 ## Philosophy
 
 This skill doesn't produce generic Material Design output. It uses M3 as a **structural completeness checklist** — ensuring no design concept is missed — then reimagines every decision for your specific project. The result is a style guide that feels native to your brand, not a Material skin.
