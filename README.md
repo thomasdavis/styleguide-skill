@@ -30,10 +30,11 @@ When you run `/styleguide:styleguide` (or `/styleguide:styleguide My Project Nam
 
 ## Installation
 
-### From a marketplace (if published)
+### From this marketplace
 
 ```
-/plugin install styleguide@marketplace-name
+/plugin marketplace add thomasdavis/styleguide-skill
+/plugin install styleguide@thomasdavis-plugins
 ```
 
 ### Local testing

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "thomasdavis-plugins",
+  "description": "Plugin marketplace by thomasdavis",
+  "owner": {
+    "name": "thomasdavis",
+    "url": "https://github.com/thomasdavis"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "styleguide",
+      "source": ".",
+      "description": "Generate comprehensive, project-specific style guides and design systems covering 17 design domains and 30+ components.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": [
+        "design-system",
+        "style-guide",
+        "design-tokens",
+        "ui-components",
+        "theming",
+        "accessibility"
+      ],
+      "author": {
+        "name": "thomasdavis"
+      }
+    }
+  ]
+}
