@@ -1,0 +1,23 @@
+{
+  "name": "styleguide",
+  "description": "Generate comprehensive, project-specific style guides and design systems. Covers every design concept: tokens, color systems, typography, shape, elevation, motion, iconography, layout, interaction states, accessibility, 30+ components, adaptive design, theming, content guidelines, data visualization, and platform-specific guidance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "thomasdavis"
+  },
+  "homepage": "https://github.com/thomasdavis/styleguide-skill",
+  "repository": "https://github.com/thomasdavis/styleguide-skill",
+  "license": "MIT",
+  "keywords": [
+    "design-system",
+    "style-guide",
+    "material-design",
+    "design-tokens",
+    "ui-components",
+    "theming",
+    "color-system",
+    "typography",
+    "accessibility",
+    "responsive-design"
+  ]
+}
